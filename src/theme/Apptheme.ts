@@ -1,0 +1,41 @@
+import { createTheme, ITheme } from '@fluentui/react';
+
+export const myTheme: ITheme = createTheme({
+  palette: {
+    themePrimary: '#0078D4',      // primary color
+    themeLighterAlt: '#f3f9fd',
+    themeLighter: '#d0e7f8',
+    themeLight: '#a9d3f2',
+    themeTertiary: '#5ca9e5',
+    themeSecondary: '#1a86d9',
+    themeDarkAlt: '#006cbe',
+    themeDark: '#005ba1',
+    themeDarker: '#004377',
+    neutralLighterAlt: '#faf9f8',
+    neutralLighter: '#f3f2f1',
+    neutralLight: '#edebe9',
+    neutralQuaternaryAlt: '#e1dfdd',
+    neutralQuaternary: '#d0d0d0',
+    neutralTertiaryAlt: '#c8c6c4',
+    neutralTertiary: '#a19f9d',
+    neutralSecondary: '#605e5c',
+    neutralPrimaryAlt: '#3b3a39',
+    neutralPrimary: '#323130',
+    neutralDark: '#201f1e',
+    black: '#000000',
+    white: '#ffffff',
+  },
+  fonts: {
+    tiny: { fontFamily: `'Segoe UI', sans-serif`, fontSize: '10px', fontWeight: 'regular' },
+    xSmall: { fontFamily: `'Segoe UI', sans-serif`, fontSize: '10px', fontWeight: 'regular' },
+    small: { fontFamily: `'Segoe UI', sans-serif`, fontSize: '12px', fontWeight: 'regular' },
+    smallPlus: { fontFamily: `'Segoe UI', sans-serif`, fontSize: '13px', fontWeight: 'regular' },
+    medium: { fontFamily: `'Segoe UI', sans-serif`, fontSize: '14px', fontWeight: 'regular' },
+    mediumPlus: { fontFamily: `'Segoe UI', sans-serif`, fontSize: '15px', fontWeight: 'regular' },
+    large: { fontFamily: `'Segoe UI', sans-serif`, fontSize: '17px', fontWeight: 'regular' },
+    xLarge: { fontFamily: `'Segoe UI', sans-serif`, fontSize: '21px', fontWeight: 'semibold' },
+    xxLarge: { fontFamily: `'Segoe UI', sans-serif`, fontSize: '28px', fontWeight: 'semibold' },
+    superLarge: { fontFamily: `'Segoe UI', sans-serif`, fontSize: '42px', fontWeight: 'semibold' },
+    mega: { fontFamily: `'Segoe UI', sans-serif`, fontSize: '68px', fontWeight: 'semibold' },
+  },
+});
